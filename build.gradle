@@ -55,9 +55,10 @@ dependencies {
     testCompile 'junit:junit:4.+'
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.2'
-}
+// FIXME: Is it a best practice to maintain the build tool's version in the build script?
+// task wrapper(type: Wrapper) {
+//     gradleVersion = '2.2'
+// }
 
 
 /*
