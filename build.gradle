@@ -22,10 +22,10 @@ jar {
     baseName = 'clust4j'
     version = version
 
-    // Load all of the dependencies into the jar
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-    }
+    // // Load all of the dependencies into the jar
+    // from {
+    //     configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    // }
 }
 
 test {
